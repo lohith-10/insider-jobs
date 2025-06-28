@@ -4,6 +4,8 @@ import cors from 'cors'
 import 'dotenv/config'
 import connectDB from './db.js'
 import * as Sentry from "@sentry/node";
+import clerkWebhook from "./controllers/webhook.controller.js";
+
 
 
 const app = express()
